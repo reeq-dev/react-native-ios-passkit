@@ -8,7 +8,7 @@ export default function App() {
     <SafeAreaView style={{ flex: 1, backgroundColor: '#161616' }}>
       <Text style={{ color: '#FFFFFF' }}>component above</Text>
       <AddPassButton
-        style={{ margin: 24 }}
+        style={{ margin: 24, height: 60, width: 194 }}
         onPress={async () => {
           try {
             const isAddable = await canAddPasses();
