@@ -1,19 +1,37 @@
 # react-native-ios-passkit
-react-native wrapper for ios passkit
+
+React-Native wrapper for iOS PassKit. Contains a PKAddPassButton and a methods to work with PassKit.
+
 ## Installation
 
 ```sh
 npm install react-native-ios-passkit
 ```
 
+or
+
+```sh
+yarn add react-native-ios-passkit
+```
+
 ## Usage
 
 ```js
-import { multiply } from "react-native-ios-passkit";
+import { canAddPasses, addPass, AddPassButton } from 'react-native-passkit';
 
 // ...
-
-const result = await multiply(3, 7);
+<AddPassButton
+  onPress={async () => {
+    try {
+      const isAddable = await canAddPasses();
+      if (isAddable) {
+        await addPass('YOUR BASE 64 PASS');
+      }
+    } catch (err) {
+      console.log(err);
+    }
+  }}
+/>;
 ```
 
 ## Contributing
