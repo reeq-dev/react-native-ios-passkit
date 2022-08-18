@@ -14,6 +14,13 @@ or
 yarn add react-native-ios-passkit
 ```
 
+and
+
+```sh
+cd ios/
+pod install
+```
+
 ## Usage
 
 ```js
