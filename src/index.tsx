@@ -4,7 +4,6 @@ import {
   requireNativeComponent,
   NativeModules,
   ViewProps,
-  ViewStyle,
 } from 'react-native';
 
 const isAndroid: boolean = Platform.OS === 'android';
