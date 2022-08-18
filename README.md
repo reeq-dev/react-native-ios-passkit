@@ -17,7 +17,7 @@ yarn add react-native-ios-passkit
 ## Usage
 
 ```js
-import { canAddPasses, addPass, AddPassButton } from 'react-native-passkit';
+import { canAddPasses, addPass, AddPassButton } from 'react-native-ios-passkit';
 
 // ...
 <AddPassButton
