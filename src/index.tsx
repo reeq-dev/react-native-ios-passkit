@@ -12,9 +12,9 @@ interface AddPassButtonNativeProps extends ViewProps {
   onAddButtonPress?: () => void;
   variant?: 'black-outline' | 'black';
 }
-interface AddPassButtonProps extends AddPassButtonNativeProps {
+interface AddPassButtonProps extends ViewProps {
   onPress?: () => void;
-  style?: ViewStyle;
+  variant?: 'black-outline' | 'black';
 }
 
 const AddPassButtonNative =
@@ -23,17 +23,15 @@ const AddPassButtonNative =
 export const AddPassButton: React.FC<AddPassButtonProps> = ({
   onPress = () => {},
   variant = 'black-outline',
-  style = {},
   ...props
 }) => {
   if (isAndroid) return null;
 
   return (
     <AddPassButtonNative
+      {...props}
       onAddButtonPress={onPress}
       variant={variant}
-      style={{ height: 60, width: 194, ...style }}
-      {...props}
     />
   );
 };

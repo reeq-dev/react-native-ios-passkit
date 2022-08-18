@@ -21,6 +21,7 @@ import { canAddPasses, addPass, AddPassButton } from 'react-native-ios-passkit';
 
 // ...
 <AddPassButton
+  style={{ margin: 24, height: 60, width: 194 }}
   onPress={async () => {
     try {
       const isAddable = await canAddPasses();
