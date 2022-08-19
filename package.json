@@ -1,6 +1,6 @@
 {
-  "name": "react-native-ios-passkit",
-  "version": "0.1.3",
+  "name": "@reeq/react-native-ios-passkit",
+  "version": "1.0.0",
   "description": "test",
   "main": "lib/commonjs/index",
   "module": "lib/module/index",

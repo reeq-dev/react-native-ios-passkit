@@ -5,13 +5,13 @@ React-Native wrapper for iOS PassKit. Contains a PKAddPassButton and a methods t
 ## Installation
 
 ```sh
-npm install react-native-ios-passkit
+npm install @reeq/react-native-ios-passkit
 ```
 
 or
 
 ```sh
-yarn add react-native-ios-passkit
+yarn add @reeq/react-native-ios-passkit
 ```
 
 and
