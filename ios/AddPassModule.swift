@@ -6,6 +6,12 @@ import React
 
 @objc(AddPassModule)
 class AddPassModule: NSObject {
+  
+
+  @objc static func requiresMainQueueSetup() -> Bool {
+    return true
+  }
+
   @objc(canAddPasses:rejecter:)
     func canAddPasses(_ resolve: RCTPromiseResolveBlock, rejecter reject:RCTPromiseRejectBlock) -> Void {
       resolve(PKAddPassesViewController.canAddPasses())
