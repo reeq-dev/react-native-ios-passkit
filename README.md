@@ -24,7 +24,7 @@ pod install
 ## Usage
 
 ```js
-import { canAddPasses, addPass, AddPassButton } from 'react-native-ios-passkit';
+import { canAddPasses, addPass, AddPassButton } from '@reeq/react-native-ios-passkit';
 
 // ...
 <AddPassButton
