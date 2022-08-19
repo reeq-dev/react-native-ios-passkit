@@ -35,13 +35,13 @@
     "ios",
     "android"
   ],
-  "repository": "https://github.com/Noolie/react-native-ios-passkit",
-  "author": "Ganas Alexander <nooolie@gmail.com> (https://github.com/Noolie)",
+  "repository": "https://github.com/reeq-dev/react-native-ios-passkit",
+  "author": "Ganas Alexander <nooolie@gmail.com> (https://github.com/reeq-dev)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Noolie/react-native-ios-passkit/issues"
+    "url": "https://github.com/reeq-dev/react-native-ios-passkit/issues"
   },
-  "homepage": "https://github.com/Noolie/react-native-ios-passkit#readme",
+  "homepage": "https://github.com/reeq-dev/react-native-ios-passkit#readme",
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
   },
