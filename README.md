@@ -42,6 +42,10 @@ import { canAddPasses, addPass, AddPassButton } from '@reeq/react-native-ios-pas
 />;
 ```
 
+## Creating pass
+Passes can be created with library (nodejs):
+https://www.npmjs.com/package/@walletpass/pass-js
+
 ## Contributing
 
 See the [contributing guide](CONTRIBUTING.md) to learn how to contribute to the repository and the development workflow.
