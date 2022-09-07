@@ -1,6 +1,6 @@
 {
   "name": "@reeq/react-native-ios-passkit",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "React-Native wrapper for iOS PassKit. Contains a PKAddPassButton and a methods to work with PassKit.",
   "main": "lib/commonjs/index",
   "module": "lib/module/index",
