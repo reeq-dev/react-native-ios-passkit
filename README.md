@@ -1,3 +1,7 @@
+## Warning
+
+This package is deprecated and won't be supported. Please use https://www.npmjs.com/package/@reeq/react-native-passkit instead. It supports google wallet API and some additional functionality for iOS as well.
+
 # react-native-ios-passkit
 
 React-Native wrapper for iOS PassKit. Contains a PKAddPassButton and a methods to work with PassKit.
@@ -24,7 +28,11 @@ pod install
 ## Usage
 
 ```js
-import { canAddPasses, addPass, AddPassButton } from '@reeq/react-native-ios-passkit';
+import {
+  canAddPasses,
+  addPass,
+  AddPassButton,
+} from '@reeq/react-native-ios-passkit';
 
 // ...
 <AddPassButton
@@ -43,6 +51,7 @@ import { canAddPasses, addPass, AddPassButton } from '@reeq/react-native-ios-pas
 ```
 
 ## Creating pass
+
 Passes can be created with library (nodejs):
 https://www.npmjs.com/package/@walletpass/pass-js
 

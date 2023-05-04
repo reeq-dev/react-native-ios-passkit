@@ -28,7 +28,8 @@
     "prepare": "bob build",
     "release": "release-it",
     "example": "yarn --cwd example",
-    "bootstrap": "yarn example && yarn && yarn example pods"
+    "bootstrap": "yarn example && yarn && yarn example pods",
+    "postinstall": "echo 'WARNING: This package is deprecated and won't be supported. Please use https://www.npmjs.com/package/@reeq/react-native-passkit instead'"
   },
   "keywords": [
     "react-native",

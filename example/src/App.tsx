@@ -1,7 +1,11 @@
 import React from 'react';
 
+import {
+  addPass,
+  AddPassButton,
+  canAddPasses,
+} from '@reeq/react-native-ios-passkit';
 import { SafeAreaView, Text } from 'react-native';
-import { canAddPasses, addPass, AddPassButton } from 'react-native-ios-passkit';
 
 export default function App() {
   return (
